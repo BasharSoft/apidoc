@@ -1,66 +1,9 @@
 # apiDoc Changelog
 
-#### 0.22.1
-
-* Fix initial jump with hashed URL (#871) by @rafaelgssa
-
-#### 0.22.0
-
-* Fix issue with newer api endpoint showing up on first page load (#869) by @Yopai
-* Update Handlebars to latest version (fix security issue) (#867) by @NicolasCARPi
-* Allow several path parameters (#866) by @rafaelgssa
-* Add param file upload support (#850) by @aqnaruto
-
-#### 0.21.0
-
-* Add --single option to output in a single HTML file (#840) by @eyasliu
-
-#### 0.20.1
-
-* Avoid using container-fluid on the body if the screen is larger than 1200px (#846)
-
-#### 0.20.0
-
-* Add `@rigwild/apidoc-markdown` converter in README (#839)
-* Add --watch command line option to generate doc if source changes (#835)
-* Handle parsing of array fields (#829)
-* Handle nested fields when sending the request (#828)
-* Revert back the api Group/Name change in template (#821)
-
-#### 0.19.1
-
-* Bring back apidoc-example as devDependencies for CI
-* Update apidoc-core version in package-lock.json
-* Fix documentation for filter-by option (use = instead of :)
-* Fix HTML after comparison (#827)
-
-#### 0.19.0
-
-The number of open pull requests in now 0! :D In this release you'll find one bugfix and also some new features/improvements.
-
-* Bugfix:
-  * Fix default header being sent instead of user input (#813)
-
-* New features:
-  * Add aloneDisplay config option to filter the page after clicking menu header (#820 by @sxiazb)
-  * Add filtering navigation bar based on URL (#820 by @sxiazb)
-  * Add dropdown box for the body parameter and modify to allow multiple params (#812 by @sxiazb)
-  * Add --filter-by option (#810 by @omaretna)
-  * Add possibility to define absolute url in @api (fix #201)
-
-* Enhancements:
-  * Add mjs file extension to the list of parsed files (#815 by @mons54)
-  * Improve the example project
-  * Don't output anything by default on CLI (fix #799)
-
-#### 0.18.0
-
-This release comes after more than two years without changes to the code. A lot of things were merged and fixed, so it is possible that this changelog is not entirely complete. Refer to the git log if necessary.
+#### 0.17.6
 
 * Common
-  * Add Docker image and improve it (#807)
-  * Fix apiGroup showing instead of apiName in template
-  * Add support for custom markdown parser location (#714)
+  * Add Docker image.
 
 * CLI
   * Add kotlin to default file-filters.
@@ -71,15 +14,7 @@ This release comes after more than two years without changes to the code. A lot 
   * Add Vietnamese translation.
   * Add Turkish translation.
   * Blank optional parameters omitted from sample request.
-  * Update template form parameter to be in form group (#669)
-  * Improve the sorting of names (#688)
-  * Avoid underscores in article titles (#764)
-  * Add default value of the headers in the input (#806)
-  * Add notes about Elixir (#658)
-  * Send JSON body for APIs (#559)
 
-* Maintenance
-  * Update dependencies where possible
 
 #### 0.17.5
 

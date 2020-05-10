@@ -1,19 +1,8 @@
-# Introduction
+# Example text from header.md
 
-This example documentation contains all the possible configuration options for apidoc.
+This text is from file "header.md".
 
-To generate this documentation:
-
-```bash
-git clone https://github.com/apidoc/apidoc && cd apidoc
-npm install --prod
-./bin/apidoc -i example -o /tmp/doc
-$BROWSER /tmp/doc
-```
-
-Note that this text is from the file "header.md".
-
-## <span id="api-example-for-a-submenu-entry">Adding a header</span>
+## <span id="api-example-for-a-submenu-entry">HowTo include</span>
 
 In your projects "package.json" you can set "apidoc.header" with a title and a filename to include this file into your documentation.
 
@@ -25,11 +14,11 @@ This example attempts to integrate "header.md" and "footer.md".
       "description": "apidoc example project.",
       "apidoc": {
         "header": {
-          "title": "Introduction",
+          "title": "My own header title",
           "filename": "header.md"
         },
         "footer": {
-          "title": "Best practices",
+          "title": "My own footer title",
           "filename": "footer.md"
         }
       }
